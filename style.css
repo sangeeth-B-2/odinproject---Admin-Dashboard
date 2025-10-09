@@ -1,0 +1,48 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: #333;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+}
+
+.menu-options:hover {
+    color: #e63946;
+}
+
+.dashboard-banner:hover {
+    color: #333;
+}
+
+.dashboard-banner {
+    position: sticky;
+    top: 0;
+    z-index: 10; 
+    background: white; 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    font-size: 24px;
+    color: #39dcf5;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+
+.dashboard-banner svg {
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+}
